@@ -2,16 +2,13 @@
 
 ## Project's design overview
 
-> Give an overview of your project's design
-
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
+![About page](../public/img/about-page-design.png)
+![Project page](../public/img/project-page-design.png)
+![Experience page](../public/img/experience.page-design.png)
+![Contact page](../public/img/contact-page-design.png)
 
 ## Wireframe(s)
 
 > Include your wireframe(s) and link to wireframe
 
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+[Excalidraw](https://excalidraw.com/#room=9641e03dee41687aa3bc,rYo56UP-BnxpLCDSHj7puw)
