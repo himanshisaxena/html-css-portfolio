@@ -1,55 +1,379 @@
-# Project Name
+# Portfolio project
 
-<!-- describe your project -->
+## User Story Dependencies
+
+[Story Dependency Diagram](user-personas.md)
 
 ---
+
+## WIREFRAME
+
+![wireframe](../public/img/about-page-design.png)
+![wireframe](../public/img/project-page-design.png)
+![wireframe](../public/img/experience.page-design.png)
+![wireframe](../public/img/contact-page-design.png)
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Create a new repo form the template `template-html-css`.
+- Add collaborators.
+- Turn on github pages and give them `write` access.
+- Protect `main` branch.
+- Turn on discussion.
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+## 1. About page
 
-## user story
+### Logo
 
-<!-- each issue created from this section will have the `for: user story` label -->
+- As a user I can see the logo of the website.
 
-> "as a ... i can ... so that ..."
+- The website needs logo.
 
-<!-- write any extra notes or description -->
+- This feature developed on a branch logo.
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+  - **HTML**
 
-### Logic: user story
+    - Add img tag.
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+  - **CSS**
+    - Add logo class to img.
 
-### Interface: user story
+### Navigation bar
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- As a user I can see the navigation bar of the website.
+- The website needs navigation bar.
+- This feature developed on a branch navigation-bar.
 
-### Interaction: user story
+  - **HTML**
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+    - Add nav tag.
 
-### Documentation: user story
+  - **CSS**
+    - Add navigation class to logo.
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### Title
+
+- As a user I can see the Title of the website.
+- This feature developed on a branch title.
+
+  - **HTML**
+
+    - Add h1 tag.
+
+  - **CSS**
+    - Add title class to section.
+
+### Description
+
+- As a user I can see the description of the myself on the website.
+- This feature developed on a branch description.
+
+  - **HTML**
+
+    - Add div tag.
+    - Add h2 tag.
+    - Add p tag.
+    - Add img tag.
+
+  - **CSS**
+    - Add description class to div.
+
+### Footer
+
+- As a user I can see the footer of the website.
+- This feature developed on a branch footer.
+
+  - **HTML**
+
+    - Add div tag.
+    - Add a tag.
+    - Add img tag.
+
+  - **CSS**
+    - Add footer class to div.
+    - Add social-media class to div.
+
+## 2. Project page
+
+### Logo
+
+- As a user I can see the logo of the website.
+
+- The website needs logo.
+
+- This feature developed on a branch logo.
+
+  - **HTML**
+
+    - Add img tag.
+
+  - **CSS**
+    - Add logo class to img.
+
+### Navigation bar
+
+- As a user I can see the navigation bar of the website.
+- The website needs navigation bar.
+- This feature developed on a branch navigation-bar.
+
+  - **HTML**
+
+    - Add nav tag.
+
+  - **CSS**
+    - Add navigation class to logo.
+
+### Title
+
+- As a user I can see the Title of the website.
+- This feature developed on a branch title.
+
+  - **HTML**
+
+    - Add h1 tag.
+
+  - **CSS**
+    - Add title class to section.
+
+### Project 1
+
+- As a user I can see the project on the website.
+- This feature developed on a branch project.
+
+  - **HTML**
+
+    - Add div tag.
+    - Add h2 tag.
+    - Add p tag.
+    - Add img tag.
+
+  - **CSS**
+    - Add description class to div.
+
+### Project 2
+
+- As a user I can see the project on the website.
+- This feature developed on a branch project.
+
+  - **HTML**
+
+    - Add div tag.
+    - Add h2 tag.
+    - Add p tag.
+    - Add img tag.
+
+  - **CSS**
+    - Add description class to div.
+
+### Project 3
+
+- As a user I can see the project on the website.
+- This feature developed on a branch project.
+
+  - **HTML**
+
+    - Add div tag.
+    - Add h2 tag.
+    - Add p tag.
+    - Add img tag.
+
+  - **CSS**
+    - Add description class to div.
+
+### Project 4
+
+- As a user I can see the project on the website.
+- This feature developed on a branch project.
+
+  - **HTML**
+
+    - Add div tag.
+    - Add h2 tag.
+    - Add p tag.
+    - Add img tag.
+
+  - **CSS**
+    - Add description class to div.
+
+### Footer
+
+- As a user I can see the footer of the website.
+- This feature developed on a branch footer.
+
+  - **HTML**
+
+    - Add div tag.
+    - Add a tag.
+    - Add img tag.
+
+  - **CSS**
+    - Add footer class to div
+    - Add social-media class to div
+
+## 3. Experience page
+
+### Logo
+
+- As a user I can see the logo of the website.
+
+- The website needs logo.
+
+- This feature developed on a branch logo.
+
+  - **HTML**
+
+    - Add img tag.
+
+  - **CSS**
+    - Add logo class to img.
+
+### Navigation bar
+
+- As a user I can see the navigation bar of the website.
+- The website needs navigation bar.
+- This feature developed on a branch navigation-bar.
+
+  - **HTML**
+
+    - Add nav tag.
+
+  - **CSS**
+    - Add navigation class to logo.
+
+### Title
+
+- As a user I can see the Title of the website.
+- This feature developed on a branch title.
+
+  - **HTML**
+
+    - Add h1 tag.
+
+  - **CSS**
+    - Add title class to section.
+
+### Description
+
+- As a user I can see the description about experience on the website.
+- As a user I can see the company name on the website where you worked.
+- As a user I can see the year of experience on the website where you worked.
+- This feature developed on a branch experience.
+
+  - **HTML**
+
+    - Add div tag.
+    - Add h2 tag.
+    - Add p tag.
+    - Add img tag.
+
+  - **CSS**
+    - Add description class to div.
+
+### Footer
+
+- As a user I can see the footer of the website.
+- This feature developed on a branch footer.
+
+  - **HTML**
+
+    - Add div tag.
+    - Add a tag.
+    - Add img tag.
+
+  - **CSS**
+    - Add footer class to div.
+    - Add social-media class to div.
+
+## 4. Contact page
+
+### Logo
+
+- As a user I can see the logo of the website.
+
+- The website needs logo.
+
+- This feature developed on a branch logo.
+
+  - **HTML**
+
+    - Add img tag.
+
+  - **CSS**
+    - Add logo class to img.
+
+### Navigation bar
+
+- As a user I can see the navigation bar of the website.
+- The website needs navigation bar.
+- This feature developed on a branch navigation-bar.
+
+  - **HTML**
+
+    - Add nav tag.
+
+  - **CSS**
+    - Add navigation class to logo.
+
+### Title
+
+- As a user I can see the Title of the website.
+- This feature developed on a branch title.
+
+  - **HTML**
+
+    - Add h1 tag.
+
+  - **CSS**
+    - Add title class to section.
+
+### Description
+
+- As a user I can see the contact timing and place on the website.
+- This feature developed on a branch description.
+
+  - **HTML**
+
+    - Add div tag.
+    - Add h2 tag.
+    - Add p tag.
+    - Add img tag.
+
+  - **CSS**
+    - Add description class to div.
+
+### Contact
+
+- As a user I can contact of the person on the website.
+- This feature developed on a branch contact.
+
+  - **HTML**
+
+    - Add div tag
+    - Add h1 tag
+    - Add p tag
+    - Add form tag
+    - Add li tag
+    - Add label tag
+    - Add input tag
+    - Add button tag
+
+  - **CSS**
+    - Add description class to div
+    - Add contact class to form
+
+### Footer
+
+- As a user I can see the footer of the website.
+- This feature developed on a branch footer.
+
+  - **HTML**
+
+    - Add div tag.
+    - Add a tag.
+    - Add img tag.
+
+  - **CSS**
+    - Add footer class to div.
+    - Add social-media class to div.
