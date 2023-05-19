@@ -1,30 +1,224 @@
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
+A collection of user stories for developing a portfolio website. These stories
+are not necessarily in order and can be adapted or expanded as needed.
 
-## Must-Haves
+## 1. About page
 
-> these are necessary for basic usability
+### Must-Have
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+> These are necessary for basic usability.
 
-## Should-Haves
+#### Logo
 
-> these will complete the user experience, but are not necessary
+- [ ] As an user I can find the logo of the organization
+  - _There's a logo the of the organization._
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+#### Navigation bar
 
-## Could-Haves
+- [ ] As an user I can navigate through 4 elements : About, Project, Experience
+      and Contact.
+  - _There's a navigation bar with the links._
+  - _Navigation panel has a button to link to the "About" page._
+  - _Navigation panel has a button to link to the "Project" page._
+  - _Navigation panel has a button to link to the "Experience" page._
+  - _Navigation panel has a button to link to the "Contact" page._
 
-> would be really cool ... if there's time
+#### Title
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As an user I can find the title.
+  - _There's is a clear title in the landing page._
+
+#### Image
+
+- [ ] As an user I can find the image.
+  - _There's is a image in the landing page._
+
+### Should-Haves
+
+> These will enhance the user experience and provide additional functionality.
+
+#### Description
+
+- [ ] As an user I want to description about person.
+  - _There's a short description._
+
+### Could-Haves
+
+> These are nice-to-have features that can be considered if there is extra time
+> or resources.
+
+#### Footer
+
+- [ ] As a user I want to see the footer.
+  - _There is a image of social media on the website._
+  - _There is a link of social media on the website._
+
+## 2. Project page
+
+### Must-Have
+
+> These are necessary for basic usability.
+
+#### Logo
+
+- [ ] As an user I can find the logo of the organization
+  - _There's a logo the of the organization._
+
+#### Navigation bar
+
+- [ ] As an user I can navigate through 4 elements : About, Project, Experience
+      and Contact.
+  - _There's a navigation bar with the links._
+  - _Navigation panel has a button to link to the "About" page._
+  - _Navigation panel has a button to link to the "Project" page._
+  - _Navigation panel has a button to link to the "Experience" page._
+  - _Navigation panel has a button to link to the "Contact" page._
+
+#### Title
+
+- [ ] As an user I can find the title.
+  - _There's is a clear title in the landing page._
+
+#### Project image
+
+- [ ] As an user I can find the image.
+  - _There's is a image in the landing page._
+
+#### Project description
+
+- [ ] As an user I want to project description about project.
+  - _There's a short project description._
+
+### Should-Haves
+
+> These will enhance the user experience and provide additional functionality.
+
+#### Project description
+
+- [ ] As an user I want to project description about project.
+  - _There's a short description._
+
+#### Project image
+
+- [ ] As an user I can find the image.
+  - _There's is a image in the landing page._
+
+### Could-Haves
+
+> These are nice-to-have features that can be considered if there is extra time
+> or resources.
+
+#### Footer
+
+- [ ] As a user I want to see the footer.
+  - _There is a image of social media on the website._
+  - _There is a link of social media on the website._
+
+## 3. Experience page
+
+### Must-Have
+
+> These are necessary for basic usability.
+
+#### Logo
+
+- [ ] As an user I can find the logo of the organization
+  - _There's a logo the of the organization._
+
+#### Navigation bar
+
+- [ ] As an user I can navigate through 4 elements : About, Project, Experience
+      and Contact.
+  - _There's a navigation bar with the links._
+  - _Navigation panel has a button to link to the "About" page._
+  - _Navigation panel has a button to link to the "Project" page._
+  - _Navigation panel has a button to link to the "Experience" page._
+  - _Navigation panel has a button to link to the "Contact" page._
+
+#### Title
+
+- [ ] As an user I can find the title.
+  - _There's is a clear title in the landing page._
+
+#### Image
+
+- [ ] As an user I can find the image.
+  - _There's is a image in the landing page._
+
+#### Company name
+
+- [ ] As an user I can find the company name.
+  - _There's is a company name on the website where person worked._
+  - _There's is a year of experience on the website where person worked._
+
+### Should-Haves
+
+> These will enhance the user experience and provide additional functionality.
+
+#### Description
+
+- [ ] As an user I want to description about experience where person worked..
+  - _There's a short description about experience._
+
+### Could-Haves
+
+> These are nice-to-have features that can be considered if there is extra time
+> or resources.
+
+#### Footer
+
+- [ ] As a user I want to see the footer.
+  - _There is a image of social media on the website._
+  - _There is a link of social media on the website._
+
+## 4. Contact page
+
+### Must-Have
+
+> These are necessary for basic usability.
+
+#### Logo
+
+- [ ] As an user I can find the logo of the organization
+  - _There's a logo the of the organization._
+
+#### Navigation bar
+
+- [ ] As an user I can navigate through 4 elements : About, Project, Experience
+      and Contact.
+  - _There's a navigation bar with the links._
+  - _Navigation panel has a button to link to the "About" page._
+  - _Navigation panel has a button to link to the "Project" page._
+  - _Navigation panel has a button to link to the "Experience" page._
+  - _Navigation panel has a button to link to the "Contact" page._
+
+#### Title
+
+- [ ] As an user I can find the title.
+  - _There's is a clear title in the landing page._
+
+#### Form
+
+- [ ] As an user I can request to submit a form for contact
+  - _There's a main content with the text and button_
+
+### Should-Haves
+
+> These will enhance the user experience and provide additional functionality.
+
+#### Description
+
+- [ ] As an user I want to description about contact.
+  - _There's a short description about contact timing._
+
+### Could-Haves
+
+> These are nice-to-have features that can be considered if there is extra time
+> or resources.
+
+#### Footer
+
+- [ ] As a user I want to see the footer.
+  - _There is a image of social media on the website._
+  - _There is a link of social media on the website._
