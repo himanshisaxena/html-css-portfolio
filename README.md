@@ -1,9 +1,8 @@
 # Portfolio
 
 This is my personal portfolio website designed to showcase my work, projects,
-technologies, skills, qualifications and training. It could include my resume, a
-summary of qualifications and skills, images of class projects and design
-samples.
+technologies, skills and training. It could include my resume, a summary of
+skills, images of class projects and design samples.
 
 ## Table of contents
 
@@ -30,7 +29,7 @@ personality, experience, and capabilities.
 ## Technologies
 
 - Npm
-- VSC code
+- VS code
 - HTML 5
 - CSS
 
