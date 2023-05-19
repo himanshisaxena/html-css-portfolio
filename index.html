@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Himanshi Saxena Portfolio</title>
   </head>
-
   <body>
     <!-- Header -->
     <header>
@@ -58,57 +57,20 @@
         </div>
 
         <div class="mySlides">
-          <h2 class="author">About Me</h2>
+          <h2 class="author">Skill</h2>
           <p class="author">
-            Hi, I'm Himanshi Saxena. I am from India and currently living in
-            Vilvoorde with my husband. As far as my education qualification is
-            concerned, I have done Master in computer science from VUB in
-            Brussels, in the year of 2022.
+            HTML, CSS, UML, Python, PHP, Windows, Linux, Ubuntu, Word,
+            PowerPoint, Excel, Outlook.
           </p>
         </div>
-
-        <!-- Next/prev buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Dots/bullets/indicators -->
         <div class="dot-container">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
         </div>
       </div>
-      <!--
-      <div class="bio animate__animated animate__shakeX">
-	        <h2 class="bio-title">About Me</h2>
-          <p class="bio-text">
-          Hi, I'm Himanshi Saxena. I am from India and currently living in 
-          Vilvoorde with my husband. As far as my education qualification is 
-          concerned, I have done Master in computer science from VUB in Brussels, 
-          in the year of 2022. I had completed Bachelor in computer science from 
-          India. My interests are in Front End Engineering, and I love to create 
-          beautiful and performant products with delightful user experiences.
-        </p>
-      </div>
-    --></section>
+    </section>
 
     <footer>
-      <nav class="nav-footer">
-        <div class="footer-social-icons">
-          <a href="https://www.facebook.com/"
-            ><img src="./public/img/facebook.png" alt="Facebook page"
-          /></a>
-          <a href="https://twitter.com/Himansh82897331"
-            ><img src="./public/img/twitter.png" alt="twitter page"
-          /></a>
-          <a href="https://github.com/himanshisaxena"
-            ><img src="./public/img/github.png" alt="github page"
-          /></a>
-          <a href="https://www.linkedin.com/in/himanshi-saxena/"
-            ><img src="./public/img/linkedin.png" alt="linkedin page"
-          /></a>
-        </div>
-      </nav>
       <p class="footer-copy">&copy; Copyright 2023</p>
       <p class="copy">
         Built by
@@ -119,18 +81,20 @@
       <button type="button" class="open-button" onclick="openForm()">
         Chat
       </button>
-      <div class="chat-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-          <h1>Chat</h1>
-          <label for="msg"><b>Message</b></label>
-          <textarea placeholder="Type message.." name="msg" required></textarea>
-          <button type="submit" class="btn">Send</button>
-          <button type="button" class="btn cancel" onclick="closeForm()">
-            Close
-          </button>
-        </form>
-      </div>
     </footer>
+
+    <div class="chat-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Chat</h1>
+        <label for="msg"><b>Message</b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">
+          Close
+        </button>
+      </form>
+    </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
