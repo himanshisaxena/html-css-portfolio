@@ -25,7 +25,7 @@ personality, experience, and capabilities.
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./assets/screencapture-portfolio.png)
 
 ## Technologies
 
@@ -33,6 +33,7 @@ personality, experience, and capabilities.
 - VSC code
 - HTML 5
 - CSS
+- JavaScript
 
 ## Setup
 
