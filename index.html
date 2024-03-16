@@ -3,113 +3,539 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="./styles/index.css" />
     <title>Himanshi Saxena Portfolio</title>
+
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script src="./chat.js"></script>
+    
+    
   </head>
-  <!-- Start body -->
   <body>
-    <!-- Start header -->
-    <header>
-      <!--Navigation bar-->
-      <div class="navbar">
-        <!-- Start Logo -->
-        <div class="navbar-logo">
-          <img src="./public/img/logo.png" alt="logo" class="logo" />
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <a href="./index.html"><img
+              src="./assets/himanshi_logo.png"
+              alt="himanshi saxena Logo Image"
+              class="header__logo-img"
+            /></a>
+          </div>
+          <a href="./index.html">
+            <span class="header__logo-sub">Himanshi Saxena</span> </a>
         </div>
-        <!-- End Logo -->
-        <!-- Start navigation bar link -->
-        <nav>
-          <div class="navbar-pages">
-            <div class="navbar-pages-hover">
-              <a class="pages" href="./index.html">ABOUT</a>
-              <a class="pages" href="./pages/project.html">PROJECT</a>
-              <a class="pages" href="./pages/experience.html">EXPERIENCE</a>
-              <a class="pages" href="./pages/contact.html">CONTACT</a>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#experience" class="header__link">
+                Experience
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#experience"> Experience </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        
+        <div class="home-hero__info">
+          <p class="text-primary">
+            <img
+              src="./assets/Himanshi_Saxena_Photo.jpeg"
+              alt="himanshi saxena  Image"
+              class="home-hero__photo"
+            />
+            As a frontend web developer, I am responsible for shaping the user experience and interface of websites and web applications.
+          </p>
+        </div>
+        
+        <div class="home-hero__cta">
+          <a href="./index.html#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a target="_blank" href="https://www.linkedin.com/in/himanshi-saxena/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/linkedin-icon.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a target="_blank" href="https://github.com/himanshisaxena" class="home-hero__social-icon-link">
+            <img
+              src="./assets/github-icon.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a target="_blank" href="https://twitter.com/?lang=en" class="home-hero__social-icon-link">
+            <img
+              src="./assets/twitter-icon.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a target="_blank" href="https://www.instagram.com/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/insta-icon.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Here you will discover more information about me, what I do, and my current skills, which are largely in programming and technology.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hello! It's
+                <strong>Himanshi Saxena</strong>
+                and I'm a <strong> Frontend Web Developer </strong>passionate about crafting engaging user experiences that drive the success of websites and web applications.
+              </p>
+              <p class="about__content-details-para">
+                View some of my work in the <strong>Projects</strong> section. I'm interested in <strong>job</strong> possibilities where I can contribute, learn, and grow. 
+                If you have a fantastic opportunity that matches my talents, please do not hesitate to 
+                <strong>contact</strong> me here.
+              </p>
+            </div>
+            <a href="./index.html#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Github</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Responsive Design</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">UML</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">PHP</div>
+              <div class="skills__skill">Figma</div>
             </div>
           </div>
-        </nav>
-        <!-- End navigation bar link -->
+        </div>
       </div>
-      <!-- End navigation bar -->
-    </header>
-    <!-- End header -->
-    <!-- Start section body -->
-    <section class="hero" id="about">
-      <img
-        src="./public/img/himanshi-saxena-photo.jpg"
-        alt="Himanshi_Saxena_Photo"
-        loading="coming"
-        class="hero-img"
-      />
-      <!-- Slideshow container -->
-      <div class="slideshow-container">
-        <!-- Full-width slides/quotes -->
-        <div class="mySlides">
-          <h2 class="author">About Me</h2>
-          <p class="author-p">
-            Hi, I'm Himanshi Saxena. I am from India and currently living in
-            Vilvoorde with my husband. As far as my education qualification is
-            concerned, I have done Master in computer science from VUB in
-            Brussels, in the year of 2022. I had completed Bachelor in computer
-            science from India. My interests are in Front End Engineering, and I
-            love to create beautiful and performant products with delightful
-            user experiences.
-          </p>
-        </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Here are some of the personal projects I've done, each with its own case studies.
+          </span>
+        </h2>
 
-        <div class="mySlides">
-          <h2 class="author">Skill</h2>
-          <p class="author-p">
-            HTML, CSS, UML, Python, PHP, Windows, Linux, Ubuntu, Word,
-            PowerPoint, Excel, Outlook.
-          </p>
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/screenshot_project_loruki.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Loruki rebuild</h3>
+              <p class="projects__row-content-desc">
+                The Loruki rebuild project involves redesigning and updating the website of a fictional cloud hosting company, with the goal 
+                of improving its functionality, user experience, and visual appeal
+              </p>
+              <a
+                href="./pages/project2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/screenshot_project_hyf.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 2</h3>
+              <p class="projects__row-content-desc">
+                The Hack Your Future project involves to train people with a refugee background to become web developers and software testers 
+                through a free training. After the education, graduates start their careers. Hack Your Future believe coding can help people in 
+                disadvantaged situations live up to their potential, get back control of their own lives and be an important change to their 
+                environment.
+              </p>
+              <a
+                href="./pages/project1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/screenshot_project_pokemon.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 3</h3>
+              <p class="projects__row-content-desc">
+                The objective of the project is to practice using get requests and apply separation of concerns.
+              </p>
+              <a
+                href="./pages/project3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="dot-container">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+    </section>
+    <section id="experience" class="experience sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">experience</span>
+          <span class="heading-sec__sub">
+            Here are some professional work.
+          </span>
+        </h2>
+
+        <div class="experience__content">
+          <div class="experience__row">
+            <div class="experience__row-img-cont">
+              <img
+                src="./assets/hyf_logo.png"
+                alt="Software Screenshot"
+                class="experience__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="experience__row-content">
+              <h3 class="experience__row-content-title">Trainee web devlopment</h3>
+              <p class="experience__row-content-desc">
+                
+                Learned skills needed to work on collaborative software projects using Markdown.
+                Worked the foundational workflows of software development by learning to write Markdown locally on your own computer using Visual Studio Code (VSCode), the Command Line Interface (CLI), and NPM scripts to automate your code's quality (formatting, linting and spell checking).
+                Worked on using Git to save and organize development process. worked on Git to go back to previous versions of project, and to work on different changes in parallel.
+                Worked on to connect local Git repositories with a GitHub repository to add more structure to development process and to share projects
+                Worked to collaborate with a group on a single project hosted in a GitHub repository. GitHub's project management features to organize group's tasks and to double-check project's code quality.
+                Worked on together in a group to build small websites in incremental steps according to a plan. Given final code, a detailed plan to rebuild it, and worked as a group following the processes in Planning and Collaborating.
+                Worked as writing your own plans as a group. given only the final code for HTML/CSS web pages, the group wrote a detailed plan for rebuilding the website in small steps.
+                Worked as Agile Development by developing a larger, open-ended web pages and adapting your plans as you go. worked on having regular meetings with your group to review the website's progress, review your plan, and make any changes in the plan that are necessary to keep the project on schedule.
+                Worked as website respond to the user’s behaviour and environment based on screen size, platform, and orientation.
+              </p>
+            </div>
+          </div>
+
+          <div class="experience__row">
+            <div class="experience__row-img-cont">
+              <img
+                src="./assets/verisure-experience-logo.png"
+                alt="Software Screenshot"
+                class="experience__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="experience__row-content">
+              <h3 class="experience__row-content-title">IT engineer</h3>
+              <p class="experience__row-content-desc">
+                
+                Worked as IT engineer in Agile squad responsible for analysis, design, development and maintenance of support applications used by internal staff.
+                Performing root cause analysis of application issues and providing solutions or escalating the issue to appropriate application teams.
+                Creation of web-based forms for customer complaints and feedback and performing manual tests while integrating forms with application.
+                Analysis, design and development of web-based ticketing tool to track user complaints for application related issues.
+                Designed and developed SLA reporting for closed tickets to assess performance of the team for reported incidents.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Scroll to top -->
+    <section>
+    <!-- Popup chat window -->
 
-    <i class="scroll-up" id="scroll-up"
-      ><img src="./public/img/arrow" class="socicon up-arrow" alt=""
-    /></i>
-    <!-- End section body -->
-    <!-- Start footer body -->
-    <footer>
-      <p class="footer-copy">&copy; Copyright 2023</p>
-      <p class="copy">
-        Built by
-        <a href="https://github.com/himanshisaxena" target="_blank"
-          >Himanshi Saxena</a
+    <!-- chat open -->
+      <div class="chat-bar-open" id="chat-open">
+        <button
+          id="chat-open-button"
+          type="button"
+          class="collapsible close"
+          onclick="chatOpen()"
         >
-      </p>
-      <button type="button" class="open-button" onclick="openForm()">
-        Chat
-      </button>
-    </footer>
-    <!-- End footer body -->
-    <div class="chat-popup" id="myForm">
-      <form action="/action_page.php" class="form-container">
-        <h1>Chat</h1>
-        <label for="msg"><b>Message</b></label>
-        <textarea placeholder="Type message.." name="msg" required></textarea>
-        <button type="submit" class="btn">Send</button>
-        <button type="button" class="btn cancel" onclick="closeForm()">
-          Close
+          <img src="./assets/chat_logo.png" alt="chat logo" />
         </button>
-      </form>
-    </div>
-    <!-- Start javascript -->
-    <script src="./script.js"></script>
-    <!-- End javascript -->
+      </div>
+
+      <!-- chat close -->
+      <div class="chat-bar-close" id="chat-close">
+        <button
+          id="chat-close-button"
+          type="button"
+          class="collapsible close"
+          onclick="chatClose()"
+        >
+          <i class="material-icons-outlined"> X </i>
+        </button>
+      </div>
+
+      <!-- chat-window 1 -->
+      <div class="chat-window" id="chat-window1">
+        <div class="hi-there">
+          <p class="p1">Hi There,</p>
+          <br />
+          <p class="p2">Ask Us Anythig.</p>
+        </div>
+        <div class="start-conversation">
+          <h1>Start a Conversation</h1>
+          <br />
+          <p>Typically replies in few minutes.</p>
+          <button
+            class="new-conversation"
+            type="button"
+            onclick="openConversation()"
+          >
+            <span>New Conversation</span
+            ><i class="material-icons-outlined"> </i>
+          </button>
+        </div>
+      </div>
+
+      <!-- chat chat-window 2 -->
+      <div class="chat-window2" id="chat-window2">
+        <div class="message-box" id="messageBox">
+          <div class="hi-there">
+            <p class="p1">Hi There,</p>
+            <br />
+            <p class="p2">Typically replies in few minutes.</p>
+          </div>
+          <div class="first-chat">
+            <p>Thank you for seeing my Portfolio</p>
+            <div class="arrow"></div>
+          </div>
+          <div class="second-chat">
+            <div class="circle"></div>
+            <p>Currently I don't have but I will launch soon.</p>
+            <div class="arrow"></div>
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="surveysparrow">
+            <img src="./assets/chat_logo.png" />
+            
+          </div>
+          <div class="write-reply">
+            <input
+              class="inputText"
+              type="text"
+              id="textInput"
+              placeholder="Write a reply..."
+            />
+          </div>
+          <div class="send-button">
+            <butto
+              type="submit"
+              class="send-message"
+              id="send"
+              onclick="userResponse()"
+            >
+              <i class="material-icons-outlined"> send </i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Got a question, or just want to say hello? Go ahead.
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="https://formsubmit.co/saxena.himanshi11@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm" class="contact__form">
+            
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/himanshi-saxena/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/linkedin-icon.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/himanshisaxena">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/github-icon.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/?lang=en">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/twitter-icon.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/insta-icon.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Himanshi Saxena</h4>
+            <p class="main-footer__short-desc">
+              A Frontend Web Developer that focuses on the frontend of websites and web applications ensure the overall success of the project.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2023. Made by
+          <a rel="noreferrer" target="_blank" href="http://www.himanshisaxena.com/"
+            >Himanshi Saxena</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
   </body>
-  <!-- End body -->
 </html>
